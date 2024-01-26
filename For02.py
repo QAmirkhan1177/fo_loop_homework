@@ -6,4 +6,8 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    l=[]
+    for i in range(n):
+        l.append(str(i))
+    return ','.join(l)
+print(main(5))
